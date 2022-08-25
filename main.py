@@ -9,6 +9,10 @@ luoti_string = input("Anna luodit:")
 leiviska = float(leiviska_string)
 naula = float(naula_string)
 luoti = float(luoti_string)
-
+# Luoti = 13,3g
+# Naula = 13,3g * 32 = 425,6g
+# Leiviskä = 425,6g * 20 = 8512g
+area = luoti * 13.3
+area1 =
 
 print(f"Massa nykymittojen mukaan on {area: .3f} ")
