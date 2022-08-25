@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# 2.5
+# 1 leiviskä on 20 naulaa
+# 1 naula on 32 luotia
+# 1 luoti on 13,3g
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+leiviska_string = input("Anna leiviskät:")
+naula_string = input("Anna naulat:")
+luoti_string = input("Anna luodit:")
+leiviska = float(leiviska_string)
+naula = float(naula_string)
+luoti = float(luoti_string)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(f"Massa nykymittojen mukaan on {area: .3f} ")
